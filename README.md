@@ -3,7 +3,7 @@
 <!-- default badges end -->
 # DevExtreme DataGrid - How to modify the persisted state
 
-This example shows how to exclude component settings that you do not want restored after the page is reloaded.
+This example shows how to exclude component settings that you do not want to be restored after the page is reloaded.
 
 In this example, you can reorder grid columns, sort and group data, and perform other modifications in the UI. After you reload the page, all the modifications persist, except filters applied to grid columns.
 
