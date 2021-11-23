@@ -28,7 +28,7 @@ Refer to the following files to view the code:
     - [index.js](jQuery/src/index.js#L44-L59)
 - **Angular**
     - [app.component.html](Angular/src/app/app.component.html#L37-L43)
-    - [app.component.ts](Angular/src/app/app.component.html#L17-L27)
+    - [app.component.ts](Angular/src/app/app.component.ts#L17-L27)
 - **Vue**
     - [Home.vue](Vue/src/components/Home.vue#L80-L90)
 - **React**
