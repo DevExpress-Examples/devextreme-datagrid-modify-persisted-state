@@ -5,9 +5,9 @@
 
 This example shows how to exclude component settings that you do not want restored after the page is reloaded.
 
-In this example, you can reorder grid columns, sort and group data, and perform other modifications in the UI. After you reload the page, all the modifications persist, except filters applied to the grid columns.
+In this example, you can reorder grid columns, sort and group data, and perform other modifications in the UI. After you reload the page, all the modifications persist, except filters applied to grid columns.
 
-The demonstrated approach can be used with the following UI components:
+You can use the demonstrated approach with the following UI components:
 
 - [DataGrid](https://js.devexpress.com/Documentation/Guide/UI_Components/DataGrid/Getting_Started_with_DataGrid/)
 - [TreeList](https://js.devexpress.com/Documentation/Guide/UI_Components/TreeList/Getting_Started_with_TreeList/)
