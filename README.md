@@ -9,6 +9,8 @@ This example shows how to exclude component settings that you don't need restore
 
 In this example, you can reorder grid columns, sort and group data, and perform other modifications in the UI. After you reload the page, all modifications will persist, except filters applied to grid columns.
 
+![DataGrid with modified persisted state](./datagrid-modify-persisted-state.png)
+
 You can use the demonstrated approach with the following UI components:
 
 - [DataGrid](https://js.devexpress.com/Documentation/Guide/UI_Components/DataGrid/Getting_Started_with_DataGrid/)
@@ -23,7 +25,7 @@ Set [stateStoring](https://js.devexpress.com/Documentation/ApiReference/UI_Compo
 1. **Implement the [customSave](https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/stateStoring/#customSave) and [customLoad](https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/stateStoring/#customLoad) functions**        
 **customSave** should modify the state and save it to your storage; **customLoad** should load the state from the storage and return it to the UI component. In this example, **customSave** removes filters applied to grid columns.
 
-Refer to the following files to view the code:
+## Files to Review
 
 - **jQuery**
     - [index.js](jQuery/src/index.js#L44-L59)
@@ -34,3 +36,12 @@ Refer to the following files to view the code:
     - [Home.vue](Vue/src/components/Home.vue#L80-L90)
 - **React**
     - [App.js](React/src/App.js#L22-L33)
+
+## Documentation
+
+- [DataGrid - stateStoring API](https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/stateStoring/)
+- [Getting Started with DataGrid](https://js.devexpress.com/Documentation/Guide/UI_Components/DataGrid/Getting_Started_with_DataGrid/)
+
+## More Examples
+
+- [DataGrid State Persistence Demo](https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/StatePersistence)
