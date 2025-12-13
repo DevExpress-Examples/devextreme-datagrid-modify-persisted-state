@@ -1,7 +1,7 @@
 import path from 'path';
 import { fileURLToPath } from 'url';
 import tsParser from '@typescript-eslint/parser';
-import spellCheck from 'eslint-config-devextreme/spell-check';
+import spellCheck from 'eslint-config-devextreme/spellCheck';
 import reactConfig from 'eslint-config-devextreme/react';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -9,13 +9,12 @@ const __dirname = path.dirname(__filename);
 
 export default [
   {
-    ignores: ['node_modules/**', 'build/**', 'dist/**', 'eslint.config.js', '*.config.ts', 'stylelint.config.mjs', 'src/**/*.test.tsx', 'src/**/*.test.ts'],
+    ignores: ['node_modules/**', 'build/**', 'dist/**', 'eslint.config.js', '*.config.ts', 'stylelint.config.mjs'],
   },
   ...spellCheck,
   ...reactConfig,
   {
     files: ['**/*.ts', '**/*.tsx'],
-    ignores: ['**/*.test.tsx', '**/*.test.ts'],
     languageOptions: {
       parserOptions: {
         project: './tsconfig.app.json',

@@ -1,5 +1,4 @@
-import tsParser from '@typescript-eslint/parser';
-import spellCheck from 'eslint-config-devextreme/spell-check';
+import spellCheck from 'eslint-config-devextreme/spellCheck';
 import vueConfig from 'eslint-config-devextreme/vue';
 
 export default [
@@ -8,12 +7,4 @@ export default [
   },
   ...spellCheck,
   ...vueConfig,
-  {
-    files: ['**/*.vue'],
-    languageOptions: {
-      parserOptions: {
-        parser: tsParser,
-      },
-    },
-  },
 ];
