@@ -47,7 +47,7 @@ Set [stateStoring](https://js.devexpress.com/Documentation/ApiReference/UI_Compo
 
 - [DataGrid State Persistence Demo](https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/StatePersistence)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=devextreme-datagrid-modify-persisted-state&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=devextreme-datagrid-modify-persisted-state&~~~was_helpful=no)
 
