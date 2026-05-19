@@ -124,7 +124,7 @@ function Process-JavaScriptProjects {
             Remove-Item -Recurse -Force node_modules -ErrorAction SilentlyContinue
             Install-Packages -folderName $folderName -packages $packages -buildVersion $buildVersion
             Write-Output "`nInstalling remaining packages in $folderName"
-            npm install --save --save-exact --no-fund --loglevel=error
+            npm install --no-fund --loglevel=error
             if (-not $?) {
                 throw "ERROR: Failed to install remaining packages in $folderName"
             }
