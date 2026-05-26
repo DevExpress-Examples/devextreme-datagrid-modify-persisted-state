@@ -30,7 +30,7 @@ function App(): JSX.Element {
   }, []);
 
   return (
-    <div className="App">
+    <div className="dx-app">
       <DataGrid
         dataSource={orders}
         keyExpr="ID"

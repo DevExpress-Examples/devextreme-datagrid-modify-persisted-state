@@ -15,6 +15,7 @@ export default [
   ...reactConfig,
   {
     files: ['**/*.ts', '**/*.tsx'],
+    ignores: ['**/*.test.tsx', '**/*.test.ts'],
     languageOptions: {
       parserOptions: {
         project: './tsconfig.app.json',
