@@ -10,11 +10,10 @@ import {
   Pager,
   StateStoring,
 } from 'devextreme-react/data-grid';
-import type { Properties as DataGridProperties } from 'devextreme/ui/data_grid';
 import { orders } from './data';
 
 const storageKey = 'datagrid-state';
-const allowedPageSizes: DataGridProperties['pager']['allowedPageSizes'] = [5, 10, 20];
+const allowedPageSizes = [5, 10, 20];
 
 function App(): JSX.Element {
   const loadState = useCallback(() => JSON.parse(localStorage.getItem(storageKey) as string) as object | null, []);
