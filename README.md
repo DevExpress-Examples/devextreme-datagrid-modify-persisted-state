@@ -34,9 +34,9 @@ Set [stateStoring](https://js.devexpress.com/Documentation/ApiReference/UI_Compo
     - [app.component.html](Angular/src/app/app.component.html#L37-L43)
     - [app.component.ts](Angular/src/app/app.component.ts#L17-L27)
 - **Vue**
-    - [Home.vue](Vue/src/components/Home.vue#L80-L90)
+    - [HomeContent.vue](Vue/src/components/HomeContent.vue#L43-L59)
 - **React**
-    - [App.js](React/src/App.js#L22-L33)
+    - [App.tsx](React/src/App.tsx#L15-L30)
 
 ## Documentation
 
