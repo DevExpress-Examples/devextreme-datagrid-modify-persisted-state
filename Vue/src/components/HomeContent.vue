@@ -6,16 +6,38 @@
     :allow-column-reordering="true"
     :show-borders="true"
   >
-    <DxColumn :width="130" data-field="OrderNumber" caption="Invoice Number" />
-    <DxColumn data-field="OrderDate" sort-order="desc" data-type="date" />
-    <DxColumn data-field="SaleAmount" alignment="right" format="currency" />
-    <DxColumn data-field="Employee" />
-    <DxColumn data-field="CustomerStoreCity" caption="City" />
-    <DxColumn :group-index="0" data-field="CustomerStoreState" caption="State" />
-    <DxSelection mode="single" />
-    <DxFilterRow :visible="true" />
-    <DxGroupPanel :visible="true" />
-    <DxPager :show-page-size-selector="true" :allowed-page-sizes="[5, 10, 20]" />
+    <DxColumn
+      :width="130"
+      data-field="OrderNumber"
+      caption="Invoice Number"
+    />
+    <DxColumn
+      data-field="OrderDate"
+      sort-order="desc"
+      data-type="date"
+    />
+    <DxColumn
+      data-field="SaleAmount"
+      alignment="right"
+      format="currency"
+    />
+    <DxColumn data-field="Employee"/>
+    <DxColumn
+      data-field="CustomerStoreCity"
+      caption="City"
+    />
+    <DxColumn
+      :group-index="0"
+      data-field="CustomerStoreState"
+      caption="State"
+    />
+    <DxSelection mode="single"/>
+    <DxFilterRow :visible="true"/>
+    <DxGroupPanel :visible="true"/>
+    <DxPager
+      :show-page-size-selector="true"
+      :allowed-page-sizes="[5, 10, 20]"
+    />
     <DxStateStoring
       :enabled="true"
       type="custom"
