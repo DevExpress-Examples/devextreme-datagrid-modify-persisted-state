@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, ChangeDetectionStrategy } from "@angular/core";
 import { DxDataGridModule } from "devextreme-angular/ui/data-grid";
 import { Service, type Order } from "./app.service";
 
@@ -8,6 +8,7 @@ import { Service, type Order } from "./app.service";
   styleUrls: ["./app.component.css"],
   standalone: true,
   imports: [DxDataGridModule],
+  changeDetection: ChangeDetectionStrategy.Eager,
   providers: [Service],
 })
 export class AppComponent {
